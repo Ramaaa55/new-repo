@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
+<<<<<<< HEAD
     include: ['@excalidraw/excalidraw'],
     exclude: ['lucide-react'],
   },
@@ -14,3 +15,8 @@ export default defineConfig({
     },
   },
 });
+=======
+    exclude: ['lucide-react'],
+  },
+});
+>>>>>>> 53cd0b6291fd472b0fc9ff1e8e8200c840339be3
